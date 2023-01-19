@@ -59,6 +59,14 @@ const HomeHero = () => {
                 <div className="hero-background loading-transition" ref={backgroundWrapper}>
                     <img src="/home/exo-ape-hero.webp" alt="exoape hero" ref={backgroundImage} />
                 </div>
+                <h1>
+                    <div className="hero-title-anim">
+                        <p ref={headings[0]} style={{color: "#1a322b"}}>Talus</p>
+                    </div>
+                    <div className="hero-title-anim">
+                        <p ref={headings[1]} style={{color: "#1a322b"}}>Slopes</p>
+                    </div>
+                </h1>
                 <div className="top-span-container">
                     <div className="anim">
                         <span ref={topSpans[0]}>Intrigued by beauty, fascinated by technology</span>
@@ -70,18 +78,6 @@ const HomeHero = () => {
                         <span ref={topSpans[2]}>craftsmanship and meaningful aesthetics.</span>
                     </div>
                 </div>
-                <h1>
-                    <div className="hero-title-anim">
-                        <p ref={headings[0]}>Digital</p>
-                    </div>
-                    <div className="hero-title-anim">
-                        <p ref={headings[1]}>Design</p>
-                    </div>
-                    <div className="hero-title-anim">
-                        <p ref={headings[2]}>Experience</p>
-                    </div>
-
-                </h1>
                 <span className="bottom-span">
                     White-glove digital experiences, engaging<br />
                     content and impactful design solutions that<br />
